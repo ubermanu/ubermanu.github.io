@@ -3,7 +3,7 @@
     <script type="module">
         import { BasicMaterial, BoxShape, Camera, Canvas, Mesh, Scene } from 'https://cdn.skypack.dev/canevas';
 
-        const element = document.getElementById('2d-square');
+        const element = document.getElementById('square-2d');
 
         let canvas, scene, camera;
         let shape, material, mesh;
@@ -15,10 +15,10 @@
         function init() {
             canvas = new Canvas();
             canvas.element = element;
-            canvas.setSize(element.offsetWidth, element.offsetHeight);
+            canvas.setSize(220, 220);
             scene = new Scene();
             camera = new Camera();
-            camera.position.set(element.offsetWidth / 2, element.offsetHeight / 2);
+            camera.position.set(110, 110);
             material = new BasicMaterial({ wireframe: true, color: 0xffa500 });
             shape = new BoxShape({ width: 80, height: 80 });
             mesh = new Mesh(shape, material);
@@ -40,11 +40,11 @@
 {% block content %}
     <main class="container" style="max-width: 720px; margin-top: 15%">
         <div class="row">
-            <div class="col-4">
-                <canvas id="2d-square" style="width: 100%; height: 100%; cursor: pointer; user-select: none"></canvas>
-            </div>
             <div class="col-8">
                 {{ content | safe }}
+            </div>
+            <div class="col-4">
+                <canvas id="square-2d" style="width: 100%; height: 100%"></canvas>
             </div>
         </div>
     </main>

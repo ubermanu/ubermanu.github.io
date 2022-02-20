@@ -34,6 +34,13 @@ h1 ~ .created-at {
     font-size: 1.4rem;
 }
 
+#square-2d {
+    cursor: pointer;
+    user-select: none;
+    margin: auto;
+    display: block;
+}
+
 /* Dark mode */
 body.dark {
     --bg-color: #111;
