@@ -1,0 +1,16 @@
+{% extends "page.njk" %}
+{% block before_content %}
+    <header class="container">
+        <h1>{{ title }}</h1>
+        <p class="subtitle">{{ subtitle }}</p>
+        <p class="created-at">{{ date }}</p>
+    </header>
+{% endblock %}
+{% block after_content %}
+    <footer class="container">
+        <a href="/blog/">
+            <i class="lni lni-arrow-left"></i>
+            <span>Go back</span>
+        </a>
+    </footer>
+{% endblock %}
