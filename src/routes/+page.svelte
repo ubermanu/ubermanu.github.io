@@ -3,18 +3,19 @@
 </script>
 
 <svelte:head>
-  <title>Hi</title>
+  <title>Emmanuel VODOR</title>
 </svelte:head>
 
 <main
-  class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center z-10 pointer-events-none text-shadow"
+  class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center z-10 pointer-events-none text-shadow p-6"
 >
   <p>
-    Salut! Je suis <strong class="font-semibold">Emmanuel</strong>, developpeur
-    fullstack senior.
+    Salut! Je suis <strong class="font-semibold">Emmanuel</strong>, développeur
+    fullstack senior, en freelance.
   </p>
   <p>
-    Les technologies que j'utilise sont principalement le PHP et le Javascript.
+    Les technologies que j'utilise sont principalement le <b>PHP</b> et le
+    <b>JavaScript</b>.
   </p>
   <p>
     Sur ce site, vous trouverez des informations sur mes projets, mes
