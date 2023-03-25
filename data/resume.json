@@ -257,7 +257,6 @@
       ],
       "startDate": "2021-01",
       "endDate": "2021-07",
-      "entity": "HappyDev",
       "keywords": ["converse.js", "XMPP", "Prosody", "Django"],
       "url": "https://hubl.world"
     },
@@ -273,7 +272,6 @@
       ],
       "startDate": "2020-10-23",
       "endDate": "2020-10-30",
-      "entity": "CABESTO",
       "keywords": ["PHP", "MySQL", "Composer", "Performance"],
       "url": "https://www.piscinecenter.com"
     },
