@@ -1,0 +1,213 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Emmanuel Vodor",
+    "label": "Dépanateur informatique indépendant",
+    "image": "",
+    "email": "manu@paca.happy-dev.fr",
+    "phone": "",
+    "url": "https://ubermanu.github.io/",
+    "summary": "Passionné du web, à la recherche de missions PHP et JS.\nHabitué de TYPO3 et Magento 2.",
+    "location": {
+      "countryCode": "FR",
+      "address": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "emmanuel-vodor-167b0522",
+        "url": "https://www.linkedin.com/in/emmanuel-vodor-167b0522/"
+      },
+      {
+        "network": "GitHub",
+        "username": "ubermanu",
+        "url": "https://github.com/ubermanu"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Happy Dev",
+      "position": "Développeur Web Freelance",
+      "startDate": "2019-11-30",
+      "endDate": "",
+      "highlights": [],
+      "summary": "",
+      "url": "https://www.linkedin.com/company/10422808",
+      "location": "France"
+    },
+    {
+      "name": "Smile Open Source Solutions",
+      "position": "Ingénieur Études et Développement",
+      "startDate": "2018-11-30",
+      "endDate": "2019-11-30",
+      "highlights": [],
+      "summary": "Déployer des solutions e-commerce Magento 2\nCréation d'un outil interne avec React",
+      "url": "https://www.linkedin.com/company/166012",
+      "location": "Marseille Area, France"
+    },
+    {
+      "name": "Stratis, Communication publique / Digital public",
+      "position": "Développeur PHP",
+      "startDate": "2016-02-28",
+      "endDate": "2018-04-30",
+      "highlights": [],
+      "summary": "Déployer et maintenir des solutions sous TYPO3 4.5, 6.2, 7.6 et 8.7\nCréer des extensions adaptées à la demande client\nParticiper à l'évolution des outils utilisés en interne",
+      "url": "https://www.linkedin.com/company/10295289",
+      "location": "La farlède"
+    },
+    {
+      "name": "OptimHome Immobilier",
+      "position": "Développeur Web",
+      "startDate": "2014-11-30",
+      "endDate": "2015-05-31",
+      "highlights": [],
+      "summary": "Déployer une solution Joomla (VirtueMart)\nInstaller une solution de paiement en ligne sécurisée\nCréation de WebServices pour communiquer avec le logiciel métier\nTests et analyses via PhantomJS\n",
+      "url": "https://www.linkedin.com/company/811755",
+      "location": "Le Cannet-des-Maures"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Scouts et Guides de France",
+      "position": "Scout",
+      "startDate": "2003-12-31",
+      "endDate": "2007-12-31",
+      "summary": "",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/1687716"
+    }
+  ],
+  "education": [
+    {
+      "institution": "SUPINFO - The International Institute of Information Technology",
+      "area": "Développement, Management, Anglais",
+      "studyType": "Master of Science (MS)",
+      "startDate": "2009-12-31",
+      "endDate": "2014-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Lycée du Taaone",
+      "area": "",
+      "studyType": "Baccalauréat Scientifique",
+      "startDate": "2007-12-31",
+      "endDate": "2009-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Import Export",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Magento",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TYPO3",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Laravel",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Accessibility",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JSON",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "jQuery",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Joomla!",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS3",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Feuilles de style en cascade (CSS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Full Professional",
+      "language": "Anglais"
+    },
+    {
+      "fluency": "Native Speaker",
+      "language": "Français"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
