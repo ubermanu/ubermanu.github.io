@@ -25,7 +25,8 @@
       {#each resume.skills as skill}
         <li>
           <div
-            class="px-2.5 py-2 inline-flex items-center px-2 py-1 font-medium text-blue-900 bg-blue-100 rounded dark:bg-blue-700 dark:text-blue-100 shadow"
+            class="px-3 py-2 inline-flex items-center font-medium text-blue-900 bg-blue-100 rounded dark:bg-blue-700 dark:text-blue-100 shadow text-lg border border-blue-200 dark:border-blue-600"
+            title={skill.keywords.join(', ')}
           >
             {skill.name}
           </div>

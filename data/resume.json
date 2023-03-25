@@ -117,29 +117,64 @@
   "publications": [],
   "skills": [
     {
-      "name": "Import Export",
-      "level": "",
-      "keywords": []
-    },
-    {
       "name": "PHP",
       "level": "",
       "keywords": []
     },
     {
-      "name": "JavaScript",
+      "name": "HTML",
+      "level": "",
+      "keywords": ["HTML5"]
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": ["CSS3", "SASS", "LESS", "PostCSS"]
+    },
+    {
+      "name": "JS",
+      "level": "",
+      "keywords": ["ES6", "Typescript"]
+    },
+    {
+      "name": "Magento 2",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Magento",
+      "name": "Linux",
+      "level": "",
+      "keywords": ["Ubuntu", "Debian", "Archlinux"]
+    },
+    {
+      "name": "Accessibilité",
+      "level": "",
+      "keywords": ["RGAA"]
+    },
+    {
+      "name": "Svelte",
+      "level": "",
+      "keywords": ["SvelteKit"]
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": ["MariaDB"]
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": ["CI", "Github", "Bitbucket", "Gitflow"]
+    },
+    {
+      "name": "Node",
       "level": "",
       "keywords": []
     },
     {
       "name": "TYPO3",
       "level": "",
-      "keywords": []
+      "keywords": ["4.5", "6.2", "7.6", "8.7"]
     },
     {
       "name": "Laravel",
@@ -147,62 +182,7 @@
       "keywords": []
     },
     {
-      "name": "Linux",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "HTML",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Accessibility",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "MySQL",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "JSON",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "HTML5",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "jQuery",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Joomla!",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "CSS3",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Feuilles de style en cascade (CSS)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Git",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Node.js",
+      "name": "React",
       "level": "",
       "keywords": []
     }
