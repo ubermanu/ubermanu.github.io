@@ -4,6 +4,7 @@
   import iconNames from '$lib/icon-fiesta.js'
 
   let k, canvas
+  let innerWidth, innerHeight
 
   onMount(() => {
     initKaboom()
@@ -44,6 +45,13 @@
   }
 </script>
 
+<svelte:window bind:innerWidth bind:innerHeight />
+
 <div class="w-full h-full fixed top-0 left-0" aria-hidden="true">
-  <canvas class="w-full h-full" bind:this={canvas} />
+  <canvas
+    class="w-full h-full"
+    bind:this={canvas}
+    width={innerWidth}
+    height={innerHeight}
+  />
 </div>
