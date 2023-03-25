@@ -258,6 +258,21 @@
       "endDate": "2021-07",
       "keywords": ["converse.js", "XMPP", "Prosody", "Django"],
       "url": "https://hubl.world"
+    },
+    {
+      "name": "PiscineCenter",
+      "description": "Audit de sécurité, optimisation et accompagnement technique suite à la migration du projet vers une version de PHP plus récente",
+      "roles": ["PHP Consultant"],
+      "highlights": [
+        "Optimisation des requêtes SQL",
+        "Refonte de l'architecture du projet, sous composer",
+        "Explication des bonnes pratiques de développement",
+        "Tests de charge"
+      ],
+      "startDate": "2020-10-23",
+      "endDate": "2020-10-30",
+      "keywords": ["PHP", "MySQL", "Composer", "Performance"],
+      "url": "https://www.piscinecenter.com"
     }
   ],
   "meta": {
