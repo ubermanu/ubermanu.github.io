@@ -420,6 +420,20 @@
       "entity": "Stratis",
       "keywords": ["TYPO3"],
       "url": "https://www.chu-rennes.fr"
+    },
+    {
+      "name": "OptimHome Market",
+      "description": "Création d'une plateforme e-commerce interne pour les agents immobiliers OptimHome",
+      "roles": ["Backend Developer"],
+      "highlights": [
+        "Création d'un site e-commerce sur Joomla avec Virtuemart",
+        "Paiement en ligne par carte bancaire",
+        "Mise en place d'un web service pour communiquer avec le logiciel métier"
+      ],
+      "startDate": "2014-11-30",
+      "endDate": "2015-05-31",
+      "entity": "OptimHome",
+      "keywords": ["Joomla"]
     }
   ],
   "meta": {
