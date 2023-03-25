@@ -230,7 +230,7 @@
       ],
       "startDate": "2022-07",
       "endDate": "2023-02",
-      "entity": "Atos",
+      "entity": "Atos, Freelance",
       "keywords": ["Magento", "LitElement", "Web Components"]
     },
     {
@@ -247,6 +247,7 @@
         "Mise en production du site, gestion des incidents et des mises à jour"
       ],
       "startDate": "2021-05",
+      "entity": "Freelance",
       "keywords": [
         "Magento",
         "Payline",
@@ -269,6 +270,7 @@
       ],
       "startDate": "2021-01",
       "endDate": "2021-07",
+      "entity": "Freelance",
       "keywords": ["converse.js", "XMPP", "Prosody", "Django"],
       "url": "https://hubl.world"
     },
@@ -284,6 +286,7 @@
       ],
       "startDate": "2020-10-23",
       "endDate": "2020-10-30",
+      "entity": "Freelance",
       "keywords": ["PHP", "MySQL", "Composer", "Performance"],
       "url": "https://www.piscinecenter.com"
     },
@@ -299,6 +302,7 @@
       ],
       "startDate": "2020-02-19",
       "endDate": "2020-03-31",
+      "entity": "Freelance",
       "keywords": ["Magento", "SASS", "Responsive Design", "Migration"],
       "url": "https://www.cabesto.com"
     },
@@ -312,7 +316,7 @@
       ],
       "startDate": "2020-01",
       "endDate": "2020-03",
-      "entity": "SCALA",
+      "entity": "SCALA, Freelance",
       "keywords": ["TYPO3"],
       "url": "https://www.igesa.fr"
     },
@@ -443,7 +447,7 @@
       "startDate": "2014-11-30",
       "endDate": "2015-05-31",
       "entity": "OptimHome",
-      "keywords": ["Joomla"]
+      "keywords": ["Joomla", "Virtuemart"]
     }
   ],
   "meta": {

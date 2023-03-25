@@ -37,7 +37,7 @@
               {/each}
             </ul>
           {/if}
-          <p class="my-4">
+          <p>
             <FromTo startDate={job.startDate} endDate={job.endDate} />
           </p>
           {#if job.url}

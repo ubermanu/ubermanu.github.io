@@ -21,7 +21,7 @@
             {project.entity}
           </p>
         {/if}
-        {#if project.roles}
+        {#if project.roles && project.roles.length > 0}
           <ul>
             {#each project.roles as role}
               <li class="inline">
@@ -46,7 +46,9 @@
             {/each}
           </ul>
         {/if}
-        <FromTo startDate={project.startDate} endDate={project.endDate} />
+        <p>
+          <FromTo startDate={project.startDate} endDate={project.endDate} />
+        </p>
         {#if project.url}
           <p>
             <a
@@ -59,6 +61,18 @@
               <ExternalLinkIcon class="inline w-3 h-3 align-text-bottom" />
             </a>
           </p>
+        {/if}
+        {#if project.keywords && project.keywords.length > 0}
+          <ul class="flex flex-wrap mt-1">
+            {#each project.keywords as keyword}
+              <li class="inline">
+                <span
+                  class="bg-indigo-100 text-indigo-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300"
+                  >{keyword}</span
+                >
+              </li>
+            {/each}
+          </ul>
         {/if}
       </div>
     </li>
