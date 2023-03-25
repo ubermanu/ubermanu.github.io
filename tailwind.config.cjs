@@ -19,6 +19,7 @@ module.exports = {
       pink: colors.fuchsia,
       white: colors.white,
       indigo: colors.indigo,
+      purple: colors.indigo,
     },
     extend: {
       spacing: {
