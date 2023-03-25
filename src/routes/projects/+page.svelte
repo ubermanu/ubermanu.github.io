@@ -9,7 +9,7 @@
   {#each resume.projects as project}
     <li>
       <div
-        class="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 shadow-lg"
+        class="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-700 shadow-lg"
       >
         <h2
           class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
@@ -22,12 +22,17 @@
           </p>
         {/if}
         {#if project.roles}
-          {#each project.roles as role}
-            <span
-              class="bg-blue-100 text-blue-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300"
-              >{role}</span
-            >
-          {/each}
+          <ul>
+            {#each project.roles as role}
+              <li class="inline">
+                <span
+                  class="bg-blue-100 text-blue-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300"
+                >
+                  {role}
+                </span>
+              </li>
+            {/each}
+          </ul>
         {/if}
         {#if project.description}
           <p class="font-normal my-4">

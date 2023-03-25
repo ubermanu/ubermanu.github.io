@@ -28,12 +28,12 @@
   "work": [
     {
       "name": "Happy Dev",
-      "position": "Développeur Web Freelance",
+      "position": "Développeur Web Fullstack",
       "startDate": "2019-11-30",
       "endDate": "",
       "highlights": [],
-      "summary": "",
-      "url": "https://www.linkedin.com/company/10422808",
+      "summary": "En freelance et membre de l'association Happy Dev (PACA)",
+      "url": "https://happy-dev.fr/",
       "location": "France"
     },
     {
@@ -41,30 +41,42 @@
       "position": "Ingénieur Études et Développement",
       "startDate": "2018-11-30",
       "endDate": "2019-11-30",
-      "highlights": [],
-      "summary": "Déployer des solutions e-commerce Magento 2\nCréation d'un outil interne avec React",
-      "url": "https://www.linkedin.com/company/166012",
-      "location": "Marseille Area, France"
+      "highlights": [
+        "Déployer des solutions e-commerce Magento 2",
+        "Création d'un outil interne avec React"
+      ],
+      "summary": "",
+      "url": "https://www.smile.eu/",
+      "location": "Pôle Media de la Belle de Mai - 37/41 rue Guibal, 13003 Marseille"
     },
     {
       "name": "Stratis, Communication publique / Digital public",
       "position": "Développeur PHP",
       "startDate": "2016-02-28",
       "endDate": "2018-04-30",
-      "highlights": [],
-      "summary": "Déployer et maintenir des solutions sous TYPO3 4.5, 6.2, 7.6 et 8.7\nCréer des extensions adaptées à la demande client\nParticiper à l'évolution des outils utilisés en interne",
-      "url": "https://www.linkedin.com/company/10295289",
-      "location": "La farlède"
+      "highlights": [
+        "Déployer et maintenir des solutions sous TYPO3 4.5, 6.2, 7.6 et 8.7",
+        "Créer des extensions adaptées à la demande client",
+        "Participer à l'évolution des outils utilisés en interne"
+      ],
+      "summary": "",
+      "url": "https://www.stratis.fr/",
+      "location": "18 Rue Lavoisier, 83210 La Farlède"
     },
     {
       "name": "OptimHome Immobilier",
       "position": "Développeur Web",
       "startDate": "2014-11-30",
       "endDate": "2015-05-31",
-      "highlights": [],
-      "summary": "Déployer une solution Joomla (VirtueMart)\nInstaller une solution de paiement en ligne sécurisée\nCréation de WebServices pour communiquer avec le logiciel métier\nTests et analyses via PhantomJS\n",
-      "url": "https://www.linkedin.com/company/811755",
-      "location": "Le Cannet-des-Maures"
+      "highlights": [
+        "Déployer une solution Joomla (VirtueMart)",
+        "Installer une solution de paiement en ligne sécurisée",
+        "Création de WebServices pour communiquer avec le logiciel métier",
+        "Tests et analyses via PhantomJS"
+      ],
+      "summary": "",
+      "url": "https://www.optimhome.com/",
+      "location": "83340 Le Cannet-des-Maures"
     }
   ],
   "volunteer": [
