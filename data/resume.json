@@ -301,6 +301,16 @@
       "endDate": "2020-03",
       "keywords": ["TYPO3"],
       "url": "https://www.igesa.fr"
+    },
+    {
+      "name": "LaProvence",
+      "description": "Maintenance de l'outil de gestion de livraison des journaux dans le 13",
+      "roles": ["Backend Developer"],
+      "highlights": [],
+      "startDate": "2019-11",
+      "endDate": "2019-12",
+      "keywords": ["Laravel"],
+      "url": "https://www.laprovence.com"
     }
   ],
   "meta": {
