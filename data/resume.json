@@ -273,6 +273,21 @@
       "endDate": "2020-10-30",
       "keywords": ["PHP", "MySQL", "Composer", "Performance"],
       "url": "https://www.piscinecenter.com"
+    },
+    {
+      "name": "CABESTO",
+      "description": "Refonte graphique de la plateforme e-commerce de CABESTO",
+      "roles": ["Front-end Developer"],
+      "highlights": [
+        "Intégration des maquettes fournies",
+        "Application d'un design 100% responsive",
+        "Développement de modules spécifiques",
+        "Migration du site de Magento 2 Commerce vers Magento 2 Open Source"
+      ],
+      "startDate": "2020-02-19",
+      "endDate": "2020-03-31",
+      "keywords": ["Magento", "SASS", "Responsive Design", "Migration"],
+      "url": "https://www.cabesto.com"
     }
   ],
   "meta": {
