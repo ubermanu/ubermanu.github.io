@@ -1,17 +1,27 @@
 <script>
   import resume from '$data/resume.json'
   import FromTo from '$lib/components/FromTo.svelte'
-  import { ExternalLinkIcon, ArrowRightIcon } from 'svelte-feather-icons'
+  import {
+    ExternalLinkIcon,
+    ArrowRightIcon,
+    BoxIcon,
+    BookIcon,
+  } from 'svelte-feather-icons'
 </script>
 
 <main class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
   <h1 class="text-4xl font-bold mb-10">CV</h1>
 
   <section class="mb-10">
-    <h2 class="text-2xl font-bold mb-6">Projets professionnels</h2>
+    <h2 class="text-2xl font-bold mb-6">
+      <BookIcon class="inline w-6 h-6 align-middle mr-2" />
+      <span class="align-middle">Projets</span>
+    </h2>
     <p>
       En suivant le lien ci-dessous, vous pouvez consulter la liste des projets
-      auquel j'ai participé.
+      professionnels auquel j'ai participé. Vous y trouverez des informations
+      concernant les technologies utilisées, les rôles que j'y ai joué, ainsi
+      que le lien vers le site web.
     </p>
     <p class="mt-4">
       <a
@@ -25,7 +35,10 @@
   </section>
 
   <section class="mb-10">
-    <h2 class="text-2xl font-bold mb-2">Experience</h2>
+    <h2 class="text-2xl font-bold mb-2">
+      <BoxIcon class="inline w-6 h-6 align-middle mr-2" />
+      <span class="align-middle">Expériences</span>
+    </h2>
     <p class="text-sm text-gray-500 dark:text-gray-400">
       La liste ci-dessous présente mes différentes expériences professionnelles.
     </p>
@@ -81,7 +94,10 @@
   </section>
 
   <section>
-    <h2 class="text-2xl font-bold mt-6 mb-2">Education</h2>
+    <h2 class="text-2xl font-bold mb-2">
+      <BoxIcon class="inline w-6 h-6 align-middle mr-2" />
+      <span class="align-middle">Education</span>
+    </h2>
     <p class="text-sm text-gray-500 dark:text-gray-400">
       La liste ci-dessous présente mes différentes formations.
     </p>
