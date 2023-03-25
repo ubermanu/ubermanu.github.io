@@ -13,6 +13,28 @@
   <h1 class="text-4xl font-bold mb-10">CV</h1>
 
   <section class="mb-10">
+    <h2 class="text-2xl font-bold mb-2">
+      <BoxIcon class="inline w-6 h-6 align-middle mr-2" />
+      <span class="align-middle">Compétences</span>
+    </h2>
+    <p class="text-sm text-gray-500 dark:text-gray-400">
+      La liste ci-dessous présente les compétences que j'ai acquises au cours de
+      mes expériences professionnelles et personnelles.
+    </p>
+    <ul class="flex flex-wrap gap-3 mt-6">
+      {#each resume.skills as skill}
+        <li>
+          <div
+            class="px-2.5 py-2 inline-flex items-center px-2 py-1 font-medium text-blue-900 bg-blue-100 rounded dark:bg-blue-700 dark:text-blue-100 shadow"
+          >
+            {skill.name}
+          </div>
+        </li>
+      {/each}
+    </ul>
+  </section>
+
+  <section class="mb-10">
     <h2 class="text-2xl font-bold mb-6">
       <BookIcon class="inline w-6 h-6 align-middle mr-2" />
       <span class="align-middle">Projets</span>
