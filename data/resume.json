@@ -288,6 +288,19 @@
       "endDate": "2020-03-31",
       "keywords": ["Magento", "SASS", "Responsive Design", "Migration"],
       "url": "https://www.cabesto.com"
+    },
+    {
+      "name": "IGESA",
+      "description": "TMA sur le site de l'IGESA",
+      "roles": ["Backend Developer"],
+      "highlights": [
+        "Correction de bugs mineurs",
+        "Mise en place d'un système de paiement en ligne"
+      ],
+      "startDate": "2020-01",
+      "endDate": "2020-03",
+      "keywords": ["TYPO3"],
+      "url": "https://www.igesa.fr"
     }
   ],
   "meta": {
