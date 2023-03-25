@@ -213,7 +213,7 @@
       "highlights": [
         "Integration des maquettes fournies par HulaHoop sur Magento 2",
         "Assurer la conformité des développements avec les standards de l'accessibilité RGAA",
-        "Developpement de quelques modules spécifiques",
+        "Développement de quelques modules spécifiques",
         "Mise en place de web components avec LitElement"
       ],
       "startDate": "2022-07",
@@ -244,6 +244,20 @@
         "TDD"
       ],
       "url": "https://www.lespaniersdavoine.com"
+    },
+    {
+      "name": "HUBL",
+      "description": "TMA pour le chat décentralisé d'HappyDev",
+      "roles": ["Front-end Developer"],
+      "highlights": [
+        "Correction de bugs et amélioration de l'interface",
+        "Envoi de correctifs de performances sur Converse.js",
+        "Ajout de fonctionnalités telles que les reactions avec des Emojis"
+      ],
+      "startDate": "2021-01",
+      "endDate": "2021-07",
+      "keywords": ["converse.js", "XMPP", "Prosody", "Django"],
+      "url": "https://hubl.world"
     }
   ],
   "meta": {
