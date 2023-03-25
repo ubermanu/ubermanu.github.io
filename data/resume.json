@@ -346,6 +346,80 @@
       "entity": "SMILE",
       "keywords": ["Magento"],
       "url": "https://www.avatacar.com"
+    },
+    {
+      "name": "Service Interacadémique des Examens et Concours",
+      "roles": ["Backend Developer"],
+      "highlights": [
+        "Définition des contraintes techniques liées au projet (multi-sites)",
+        "Traduction du besoin client et organisation des équipes",
+        "Développement de formulaires dynamiques pour saisir son examen"
+      ],
+      "startDate": "2018",
+      "endDate": "2018",
+      "entity": "Stratis",
+      "keywords": ["TYPO3"],
+      "url": "https://siec.education.fr"
+    },
+    {
+      "name": "Nancy",
+      "roles": ["Backend Developer"],
+      "highlights": [],
+      "startDate": "2018",
+      "endDate": "2018",
+      "entity": "Stratis",
+      "keywords": ["TYPO3"],
+      "url": "https://www.nancy.fr"
+    },
+    {
+      "name": "Aggloroanne",
+      "roles": ["Backend Developer"],
+      "highlights": [],
+      "startDate": "2017",
+      "endDate": "2017",
+      "entity": "Stratis",
+      "keywords": ["TYPO3"],
+      "url": "https://www.aggloroanne.fr"
+    },
+    {
+      "name": "Brest",
+      "roles": ["Backend Developer"],
+      "highlights": [],
+      "startDate": "2017",
+      "endDate": "2017",
+      "entity": "Stratis",
+      "keywords": ["TYPO3"],
+      "url": "https://www.brest.fr"
+    },
+    {
+      "name": "Cergy",
+      "roles": ["Backend Developer"],
+      "highlights": [],
+      "startDate": "2017",
+      "endDate": "2017",
+      "entity": "Stratis",
+      "keywords": ["TYPO3"],
+      "url": "https://www.cergy.fr"
+    },
+    {
+      "name": "CG06",
+      "roles": ["Backend Developer"],
+      "highlights": [],
+      "startDate": "2016",
+      "endDate": "2016",
+      "entity": "Stratis",
+      "keywords": ["TYPO3"],
+      "url": "https://www.departement06.fr"
+    },
+    {
+      "name": "CHU de Rennes",
+      "roles": ["Backend Developer"],
+      "highlights": [],
+      "startDate": "2016",
+      "endDate": "2016",
+      "entity": "Stratis",
+      "keywords": ["TYPO3"],
+      "url": "https://www.chu-rennes.fr"
     }
   ],
   "meta": {
