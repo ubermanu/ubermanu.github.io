@@ -205,7 +205,22 @@
   ],
   "interests": [],
   "references": [],
-  "projects": [],
+  "projects": [
+    {
+      "name": "Office du Tourisme et des congrès de Paris",
+      "description": "Développement de la plateforme e-commerce de l'OTCP par ATOS",
+      "roles": ["Front-end Developer"],
+      "highlights": [
+        "Integration des maquettes fournies par HulaHoop sur Magento 2",
+        "Assurer la conformité des développements avec les standards de l'accessibilité RGAA",
+        "Developpement de quelques modules spécifiques",
+        "Mise en place de web components avec LitElement"
+      ],
+      "startDate": "2022-07",
+      "endDate": "2023-02",
+      "keywords": ["Magento", "LitElement", "Web Components"]
+    }
+  ],
   "meta": {
     "version": "v1.0.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
