@@ -219,6 +219,31 @@
       "startDate": "2022-07",
       "endDate": "2023-02",
       "keywords": ["Magento", "LitElement", "Web Components"]
+    },
+    {
+      "name": "Les Paniers Davoine",
+      "description": "Refonte d'un site e-commerce pour la vente de paniers garnis",
+      "roles": ["Backend Developer"],
+      "highlights": [
+        "Migration du site de Magento 1 vers Magento 2",
+        "Module d'abonnement hebdomadaire pour les clients avec Payline",
+        "Module d'export complexe pour la plateforme de préparation de commandes",
+        "Remplacement de certains produits dans les paniers selon les préférences du client",
+        "Module de selection de points de retrait, avec remplacement du point relai si indisponible",
+        "Mise en place de tests unitaires et fonctionnels",
+        "Mise en production du site, gestion des incidents et des mises à jour"
+      ],
+      "startDate": "2021-05",
+      "keywords": [
+        "Magento",
+        "Payline",
+        "Abonnement",
+        "Export",
+        "Point relai",
+        "Migration",
+        "TDD"
+      ],
+      "url": "https://www.lespaniersdavoine.com"
     }
   ],
   "meta": {
