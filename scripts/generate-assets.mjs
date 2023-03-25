@@ -1,48 +1,6 @@
 import * as si from 'simple-icons'
 import sharp from 'sharp'
-
-const iconNames = [
-  'php',
-  'html5',
-  'css3',
-  'sass',
-  'less',
-  'tailwindcss',
-  'jquery',
-  'javascript',
-  'magento',
-  'svelte',
-  'mysql',
-  'mariadb',
-  'sqlite',
-  'nodedotjs',
-  'typo3',
-  'laravel',
-  'react',
-  'typescript',
-  'archlinux',
-  'nginx',
-  'apache',
-  'docker',
-  'openstreetmap',
-  'googlemaps',
-  'googleanalytics',
-  'googletagmanager',
-  'phpmyadmin',
-  'adminer',
-  'composer',
-  'editorconfig',
-  'prettier',
-  'icomoon',
-  'npm',
-  'pnpm',
-  'yarn',
-  'phpstorm',
-  'github',
-  'git',
-  'digitalocean',
-  'gitkraken',
-]
+import iconNames from '../src/lib/icon-fiesta.js'
 
 // for each icon, generate a PNG file
 // TODO: Generate a white and a black version
