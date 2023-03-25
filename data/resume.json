@@ -208,7 +208,7 @@
   "projects": [
     {
       "name": "Office du Tourisme et des congrès de Paris",
-      "description": "Développement de la plateforme e-commerce de l'OTCP par ATOS",
+      "description": "Développement de la plateforme e-commerce de l'OTCP",
       "roles": ["Front-end Developer"],
       "highlights": [
         "Integration des maquettes fournies par HulaHoop sur Magento 2",
@@ -218,6 +218,7 @@
       ],
       "startDate": "2022-07",
       "endDate": "2023-02",
+      "entity": "Atos",
       "keywords": ["Magento", "LitElement", "Web Components"]
     },
     {
@@ -256,6 +257,7 @@
       ],
       "startDate": "2021-01",
       "endDate": "2021-07",
+      "entity": "HappyDev",
       "keywords": ["converse.js", "XMPP", "Prosody", "Django"],
       "url": "https://hubl.world"
     },
@@ -271,6 +273,7 @@
       ],
       "startDate": "2020-10-23",
       "endDate": "2020-10-30",
+      "entity": "CABESTO",
       "keywords": ["PHP", "MySQL", "Composer", "Performance"],
       "url": "https://www.piscinecenter.com"
     },
@@ -299,6 +302,7 @@
       ],
       "startDate": "2020-01",
       "endDate": "2020-03",
+      "entity": "SCALA",
       "keywords": ["TYPO3"],
       "url": "https://www.igesa.fr"
     },
@@ -309,8 +313,39 @@
       "highlights": [],
       "startDate": "2019-11",
       "endDate": "2019-12",
+      "entity": "SMILE",
       "keywords": ["Laravel"],
       "url": "https://www.laprovence.com"
+    },
+    {
+      "name": "CABESTO",
+      "roles": ["Backend Developer"],
+      "highlights": [],
+      "startDate": "2019",
+      "endDate": "2019",
+      "entity": "SMILE",
+      "keywords": ["Magento"],
+      "url": "https://www.cabesto.com"
+    },
+    {
+      "name": "Ollygan",
+      "roles": ["Backend Developer", "Front-end Developer"],
+      "highlights": [],
+      "startDate": "2019",
+      "endDate": "2019",
+      "entity": "SMILE",
+      "keywords": ["Magento"],
+      "url": "https://www.ollygan.com"
+    },
+    {
+      "name": "Avatacar",
+      "roles": ["Backend Developer"],
+      "highlights": [],
+      "startDate": "2019",
+      "endDate": "2019",
+      "entity": "SMILE",
+      "keywords": ["Magento"],
+      "url": "https://www.avatacar.com"
     }
   ],
   "meta": {
