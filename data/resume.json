@@ -98,7 +98,8 @@
       "startDate": "2009-12-31",
       "endDate": "2014-12-31",
       "score": "",
-      "courses": []
+      "courses": [],
+      "url": "https://www.supinfo.com/"
     },
     {
       "institution": "Lycée du Taaone",
@@ -107,7 +108,8 @@
       "startDate": "2007-12-31",
       "endDate": "2009-12-31",
       "score": "",
-      "courses": []
+      "courses": [],
+      "url": "https://lycee2pirae.com/"
     }
   ],
   "awards": [],

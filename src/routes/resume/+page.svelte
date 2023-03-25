@@ -72,11 +72,37 @@
   </p>
 
   <h2 class="text-2xl font-bold mb-2">Education</h2>
-  <ol class="flex flex-col space-y-2 mb-2">
-    {#each resume.education as education}
+  <ol class="flex flex-col gap-6 my-6">
+    {#each resume.education as school}
       <li>
-        <h3 class="font-bold">{education.institution}</h3>
-        <FromTo startDate={education.startDate} endDate={education.endDate} />
+        <div
+          class="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-700 shadow-lg"
+        >
+          <h2
+            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+          >
+            {school.institution}
+          </h2>
+          {#if school.studyType}
+            <p class="my-4">{school.studyType}</p>
+          {/if}
+          <p>
+            <FromTo startDate={school.startDate} endDate={school.endDate} />
+          </p>
+          {#if school.url}
+            <p>
+              <a
+                href={school.url}
+                class="text-blue-500 hover:underline hover:underline-offset-2 text-xs dark:text-blue-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>{school.url}</span>
+                <ExternalLinkIcon class="inline w-3 h-3 align-text-bottom" />
+              </a>
+            </p>
+          {/if}
+        </div>
       </li>
     {/each}
   </ol>
