@@ -9,6 +9,10 @@
   } from 'svelte-feather-icons'
 </script>
 
+<svelte:head>
+  <title>CV - Emmanuel VODOR</title>
+</svelte:head>
+
 <main class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
   <h1 class="text-4xl font-bold mb-10">CV</h1>
 

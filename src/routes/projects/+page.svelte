@@ -4,6 +4,10 @@
   import { ExternalLinkIcon } from 'svelte-feather-icons'
 </script>
 
+<svelte:head>
+  <title>Projets - Emmanuel VODOR</title>
+</svelte:head>
+
 <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
   <h2 class="text-3xl font-bold mb-10">Projets</h2>
   <ol class="project-list gap-6">
