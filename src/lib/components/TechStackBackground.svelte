@@ -43,15 +43,17 @@
       technos.push(tech)
     })
   }
+
+  function onResize() {
+    if (canvas) {
+      canvas.width = innerWidth
+      canvas.height = innerHeight
+    }
+  }
 </script>
 
-<svelte:window bind:innerWidth bind:innerHeight />
+<svelte:window on:resize={onResize} bind:innerWidth bind:innerHeight />
 
 <div class="w-full h-full fixed top-0 left-0" aria-hidden="true">
-  <canvas
-    class="w-full h-full"
-    bind:this={canvas}
-    width={innerWidth}
-    height={innerHeight}
-  />
+  <canvas class="w-full h-full" bind:this={canvas} />
 </div>
