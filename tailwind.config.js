@@ -1,8 +1,7 @@
-// tailwind.config.js
-const colors = require('tailwindcss/colors')
+import colors from 'tailwindcss/colors'
 
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   darkMode: 'media',
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
@@ -23,13 +22,13 @@ module.exports = {
     },
     extend: {
       spacing: {
-        '128': '32rem',
-        '144': '36rem',
+        128: '32rem',
+        144: '36rem',
       },
       borderRadius: {
         '4xl': '2rem',
-      }
-    }
+      },
+    },
   },
   plugins: [],
 }
