@@ -1,5 +1,7 @@
 <script>
   import TechStackBackground from '$lib/components/TechStackBackground.svelte'
+
+  export let data
 </script>
 
 <svelte:head>
@@ -9,6 +11,12 @@
 <main
   class="text-shadow pointer-events-none absolute left-0 top-0 z-10 flex h-full w-full flex-col items-center justify-center p-6 text-center"
 >
+  <img
+    class="h-32 w-32 rounded-full shadow-lg"
+    src={data.resume.basics.image}
+    alt
+  />
+  <br />
   <p>
     Salut! Je suis <strong class="font-semibold">Emmanuel</strong>, développeur
     fullstack senior, en freelance.
@@ -36,6 +44,7 @@
       class="text-blue-500 hover:text-blue-700">LinkedIn</a
     >.
   </p>
+  <br />
   <br />
   <a
     class="group relative mb-2 mr-2 inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-blue-300 group-hover:from-purple-600 group-hover:to-blue-500 dark:text-white dark:focus:ring-blue-800"
