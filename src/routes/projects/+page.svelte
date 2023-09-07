@@ -1,6 +1,6 @@
 <script>
   import FromTo from '$lib/components/FromTo.svelte'
-  import { ExternalLinkIcon } from 'svelte-feather-icons'
+  import { ArrowLeftIcon, ExternalLinkIcon } from 'svelte-feather-icons'
 
   export let data
 </script>
@@ -10,6 +10,14 @@
 </svelte:head>
 
 <main class="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
+  <a
+    class="mb-4 inline-block active:scale-95"
+    href="/resume"
+    title="Retour à la page précédente"
+  >
+    <ArrowLeftIcon />
+  </a>
+
   <h2 class="mb-10 text-3xl font-bold">Projets</h2>
   <ol class="project-list gap-6">
     {#each data.resume.projects as project}

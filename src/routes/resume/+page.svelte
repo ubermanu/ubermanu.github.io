@@ -3,6 +3,7 @@
   import {
     ExternalLinkIcon,
     ArrowRightIcon,
+    ArrowLeftIcon,
     BoxIcon,
     BookIcon,
   } from 'svelte-feather-icons'
@@ -15,6 +16,14 @@
 </svelte:head>
 
 <main class="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
+  <a
+    class="mb-4 inline-block active:scale-95"
+    href="/"
+    title="Retour à l'accueil"
+  >
+    <ArrowLeftIcon />
+  </a>
+
   <h1 class="mb-10 text-4xl font-bold">CV</h1>
 
   <section class="mb-10">
