@@ -54,6 +54,6 @@
 
 <svelte:window on:resize={onResize} bind:innerWidth bind:innerHeight />
 
-<div class="w-full h-full fixed top-0 left-0" aria-hidden="true">
-  <canvas class="w-full h-full" bind:this={canvas} />
+<div class="fixed left-0 top-0 h-full w-full" aria-hidden="true">
+  <canvas class="h-full w-full" bind:this={canvas} />
 </div>

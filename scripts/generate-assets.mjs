@@ -1,5 +1,5 @@
-import * as si from 'simple-icons'
 import sharp from 'sharp'
+import * as si from 'simple-icons'
 import iconNames from '../src/lib/icon-fiesta.js'
 
 // for each icon, generate a PNG file

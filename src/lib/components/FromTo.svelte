@@ -1,17 +1,11 @@
 <script>
-  /**
-   * @type {string}
-   */
+  /** @type {string} */
   export let startDate
 
-  /**
-   * @type {string}
-   */
+  /** @type {string} */
   export let endDate = ''
 
-  /**
-   * @type {'long' | 'short'}
-   */
+  /** @type {'long' | 'short'} */
   export let format = 'long'
 
   function formatDate(date, locale = 'fr-FR') {

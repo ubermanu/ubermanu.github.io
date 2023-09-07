@@ -7,7 +7,7 @@
 </svelte:head>
 
 <main
-  class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center z-10 pointer-events-none text-shadow p-6"
+  class="text-shadow pointer-events-none absolute left-0 top-0 z-10 flex h-full w-full flex-col items-center justify-center p-6 text-center"
 >
   <p>
     Salut! Je suis <strong class="font-semibold">Emmanuel</strong>, développeur
@@ -38,11 +38,11 @@
   </p>
   <br />
   <a
-    class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
+    class="group relative mb-2 mr-2 inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-blue-300 group-hover:from-purple-600 group-hover:to-blue-500 dark:text-white dark:focus:ring-blue-800"
     href="/resume"
   >
     <span
-      class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0"
+      class="relative rounded-md bg-white px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900"
     >
       Voir mon CV
     </span>
@@ -53,7 +53,7 @@
 
 <style>
   a {
-    pointer-events: auto;
     cursor: pointer;
+    pointer-events: auto;
   }
 </style>

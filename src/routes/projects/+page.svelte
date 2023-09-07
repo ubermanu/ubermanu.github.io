@@ -8,13 +8,13 @@
   <title>Projets - Emmanuel VODOR</title>
 </svelte:head>
 
-<main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-  <h2 class="text-3xl font-bold mb-10">Projets</h2>
+<main class="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
+  <h2 class="mb-10 text-3xl font-bold">Projets</h2>
   <ol class="project-list gap-6">
     {#each resume.projects as project}
       <li>
         <div
-          class="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-700 shadow-lg"
+          class="rounded-lg border border-gray-200 bg-white p-6 shadow shadow-lg dark:border-gray-700 dark:bg-gray-900"
         >
           <h2
             class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
@@ -22,7 +22,7 @@
             {project.name}
           </h2>
           {#if project.entity}
-            <p class="text-xs uppercase my-1 text-gray-700 dark:text-gray-400">
+            <p class="my-1 text-xs uppercase text-gray-700 dark:text-gray-400">
               {project.entity}
             </p>
           {/if}
@@ -31,7 +31,7 @@
               {#each project.roles as role}
                 <li class="inline">
                   <span
-                    class="bg-blue-100 text-blue-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300"
+                    class="mr-2 rounded bg-blue-100 px-2.5 py-0.5 text-xs font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-300"
                   >
                     {role}
                   </span>
@@ -40,12 +40,12 @@
             </ul>
           {/if}
           {#if project.description}
-            <p class="font-normal my-4">
+            <p class="my-4 font-normal">
               {project.description}
             </p>
           {/if}
           {#if project.highlights}
-            <ul class="list-disc text-xs my-4 space-y-1 pl-4">
+            <ul class="my-4 list-disc space-y-1 pl-4 text-xs">
               {#each project.highlights as highlight}
                 <li class="text-gray-700 dark:text-gray-400">{highlight}</li>
               {/each}
@@ -58,21 +58,21 @@
             <p>
               <a
                 href={project.url}
-                class="text-blue-500 hover:underline hover:underline-offset-2 text-xs dark:text-blue-300"
+                class="text-xs text-blue-500 hover:underline hover:underline-offset-2 dark:text-blue-300"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span>{project.url}</span>
-                <ExternalLinkIcon class="inline w-3 h-3 align-text-bottom" />
+                <ExternalLinkIcon class="inline h-3 w-3 align-text-bottom" />
               </a>
             </p>
           {/if}
           {#if project.keywords && project.keywords.length > 0}
-            <ul class="flex flex-wrap mt-1">
+            <ul class="mt-1 flex flex-wrap">
               {#each project.keywords as keyword}
                 <li class="inline">
                   <span
-                    class="bg-indigo-100 text-indigo-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300"
+                    class="mr-2 rounded bg-indigo-100 px-2.5 py-0.5 text-xs font-medium text-indigo-800 dark:bg-indigo-900 dark:text-indigo-300"
                     >{keyword}</span
                   >
                 </li>
