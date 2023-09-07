@@ -32,7 +32,6 @@
         k.color(255, 255, 255),
         k.area(),
         k.body(),
-        k.opacity(0.2),
       ])
 
       tech.onClick(() => {
@@ -54,6 +53,9 @@
 
 <svelte:window on:resize={onResize} bind:innerWidth bind:innerHeight />
 
-<div class="fixed left-0 top-0 h-full w-full" aria-hidden="true">
+<div
+  class="fixed left-0 top-0 h-full w-full opacity-5 dark:opacity-10"
+  aria-hidden="true"
+>
   <canvas class="h-full w-full" bind:this={canvas} />
 </div>
