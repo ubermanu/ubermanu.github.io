@@ -5,12 +5,9 @@
   /** @type {string} */
   export let endDate = ''
 
-  /** @type {'long' | 'short'} */
-  export let format = 'long'
-
   function formatDate(date, locale = 'fr-FR') {
     const options = { year: 'numeric' }
-    const [year, month, day] = date.split('-')
+    const [, month, day] = date.split('-')
 
     if (month) {
       options.month = 'numeric'

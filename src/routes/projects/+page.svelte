@@ -1,7 +1,8 @@
 <script>
-  import resume from '$data/resume.json'
   import FromTo from '$lib/components/FromTo.svelte'
   import { ExternalLinkIcon } from 'svelte-feather-icons'
+
+  export let data
 </script>
 
 <svelte:head>
@@ -11,10 +12,10 @@
 <main class="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
   <h2 class="mb-10 text-3xl font-bold">Projets</h2>
   <ol class="project-list gap-6">
-    {#each resume.projects as project}
+    {#each data.resume.projects as project}
       <li>
         <div
-          class="rounded-lg border border-gray-200 bg-white p-6 shadow shadow-lg dark:border-gray-700 dark:bg-gray-900"
+          class="rounded-lg border border-gray-200 bg-white p-6 shadow-lg dark:border-gray-700 dark:bg-gray-900"
         >
           <h2
             class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
