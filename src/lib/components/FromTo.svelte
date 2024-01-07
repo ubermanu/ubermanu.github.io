@@ -5,7 +5,13 @@
   /** @type {string} */
   export let endDate = ''
 
+  /**
+   * @param {string} date
+   * @param {string} [locale]
+   * @returns {string}
+   */
   function formatDate(date, locale = 'fr-FR') {
+    /** @type {Intl.DateTimeFormatOptions} */
     const options = { year: 'numeric' }
     const [, month, day] = date.split('-')
 
@@ -24,16 +30,28 @@
     return new Date(date).toLocaleDateString(locale, options)
   }
 
+  /**
+   * @param {string} date
+   * @returns {string}
+   */
   function getStartDatePrefix(date) {
     const [, month, day] = date.split('-')
     return month && !day ? 'De' : 'Du'
   }
 
+  /**
+   * @param {string} date
+   * @returns {string}
+   */
   function getEndDatePrefix(date) {
     const [, month, day] = date.split('-')
     return month && !day ? 'à' : 'au'
   }
 
+  /**
+   * @param {string} date
+   * @returns {boolean}
+   */
   function hasDay(date) {
     const [, , day] = date.split('-')
     return !!day
