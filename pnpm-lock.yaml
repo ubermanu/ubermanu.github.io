@@ -15,8 +15,8 @@ devDependencies:
     specifier: ^3.0.2
     version: 3.0.2(svelte@4.2.9)(vite@5.0.12)
   '@ubermanu/prettier-config':
-    specifier: ^3.2.0
-    version: 3.2.0(prettier-plugin-svelte@3.1.2)(prettier-plugin-tailwindcss@0.5.11)(prettier@3.2.5)
+    specifier: ^3.3.0
+    version: 3.3.0(prettier-plugin-svelte@3.1.2)(prettier-plugin-tailwindcss@0.5.11)(prettier@3.2.5)
   autoprefixer:
     specifier: ^10.4.17
     version: 10.4.17(postcss@8.4.33)
@@ -764,8 +764,8 @@ packages:
     resolution: {integrity: sha512-dqId9J8K/vGi5Zr7oo212BGii5m3q5Hxlkwy3WpYuKPklmBEvsbMYYyLxAQpSffdLl/gdW0XUpKWFvYmyoWCoQ==}
     dev: true
 
-  /@ubermanu/prettier-config@3.2.0(prettier-plugin-svelte@3.1.2)(prettier-plugin-tailwindcss@0.5.11)(prettier@3.2.5):
-    resolution: {integrity: sha512-9iGmOQ9YZPyTqGjJPorEmCZ7C3xk0kGn1zXrxVo8CHbY/FdcoFOMjAA7ultZ4ne4fKxG/xt0OS2b9LiiRmGVJg==}
+  /@ubermanu/prettier-config@3.3.0(prettier-plugin-svelte@3.1.2)(prettier-plugin-tailwindcss@0.5.11)(prettier@3.2.5):
+    resolution: {integrity: sha512-yyE/P6FsVtxqysNV5y6mH5RIJHk2xODh2haOm1slRe5aK4OikNrN3xS1qkPo3q1+ccadVIoAqk1OJ8qPy9X2JA==}
     peerDependencies:
       prettier: 3.x
       prettier-plugin-svelte: '*'
