@@ -8,8 +8,8 @@
     "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
     "dev": "vite dev",
-    "format": "prettier --plugin-search-dir . --write .",
-    "lint": "prettier --plugin-search-dir . --check .",
+    "format": "prettier --write .",
+    "lint": "prettier --check .",
     "preview": "vite preview"
   },
   "prettier": "@ubermanu/prettier-config",
