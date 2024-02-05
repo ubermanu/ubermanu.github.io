@@ -3,8 +3,17 @@
   import kaboom from 'kaboom'
   import iconNames from '$lib/icon-fiesta.js'
 
-  let k, canvas
-  let innerWidth, innerHeight
+  /** @type {import('kaboom').KaboomCtx} */
+  let k
+
+  /** @type {HTMLCanvasElement} */
+  let canvas
+
+  /** @type {number} */
+  let innerWidth
+
+  /** @type {number} */
+  let innerHeight
 
   onMount(() => {
     initKaboom()
@@ -13,7 +22,6 @@
   function initKaboom() {
     k = kaboom({
       global: false,
-      fullscreen: true,
       canvas,
       background: [0, 0, 0, 0],
     })
@@ -35,7 +43,7 @@
       ])
 
       tech.onClick(() => {
-        k.shake()
+        k.shake(10)
         tech.destroy()
       })
 

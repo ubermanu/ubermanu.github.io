@@ -14,7 +14,7 @@
   <img
     class="h-32 w-32 rounded-full shadow-lg"
     src={data.resume.basics.image}
-    alt
+    alt=""
   />
   <br />
   <p>
