@@ -20,17 +20,17 @@
     "@ubermanu/prettier-config": "^3.3.0",
     "autoprefixer": "^10.4.17",
     "kaboom": "3000.1.17",
-    "postcss": "^8.4.33",
+    "postcss": "^8.4.35",
     "prettier": "^3.2.5",
     "prettier-plugin-svelte": "^3.1.2",
     "prettier-plugin-tailwindcss": "^0.5.11",
     "sharp": "^0.33.2",
-    "simple-icons": "^11.3.0",
-    "svelte": "^4.2.9",
-    "svelte-check": "^3.6.3",
+    "simple-icons": "^11.4.0",
+    "svelte": "^4.2.10",
+    "svelte-check": "^3.6.4",
     "svelte-feather-icons": "^4.1.0",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3",
-    "vite": "^5.0.12"
+    "vite": "^5.1.1"
   }
 }
